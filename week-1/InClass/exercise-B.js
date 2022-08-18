@@ -1,0 +1,8 @@
+console.log("Good Morning")
+console.log("Bon dia")
+console.log("Buenos dias")
+console.log("Bon Yorno")
+console.log("Bona cera")
+console.log("bona nit")
+console.log("Buenas noches")
+console.log("God night")
