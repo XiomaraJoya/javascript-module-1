@@ -1,3 +1,4 @@
-const name = " Daniel  ";
+const myName = " Daniel  "
+const lastName = "Gonzales"
 
-console.log(message);
+console.log("Hi"+","+"my name is"+myName+lastName);
