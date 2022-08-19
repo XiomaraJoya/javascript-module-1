@@ -4,7 +4,7 @@ function multiply(area,height) {
   return area*height;
 }
 
-//calculating the volume of an isosceles triangle
+//calculating the volume of triangle
 // Assign the result of calling the function the variable `result`
 var result = multiply(3, 4);
 
