@@ -1,5 +1,5 @@
 function yearOfBirth(age) {
-    return age - 2022
+    return 2022 - age
 }
-
-console.log("Year of birth: "+yearOfBirth(20));
+var result = (20);
+console.log("Year of birth: "+yearOfBirth(result));
