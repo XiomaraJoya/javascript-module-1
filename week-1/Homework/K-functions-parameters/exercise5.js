@@ -1,7 +1,7 @@
 // Declare your function here
 function createLongGreeting (name,age) {
     
-    return "Hello, my name is"+ createLongGreeting;
+    return "Hello, my name is"+ ;
 
 }
 

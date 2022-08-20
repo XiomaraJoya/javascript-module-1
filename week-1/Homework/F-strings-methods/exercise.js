@@ -1,4 +1,6 @@
 // Start by creating a variable `message`
-const message = "Once you choose hope, anything’s possible"
+
+var name = "Xiomara";
+var message = " My name is "  + name +  " and my name is " + name.length + " characters long"
 
 console.log(message);

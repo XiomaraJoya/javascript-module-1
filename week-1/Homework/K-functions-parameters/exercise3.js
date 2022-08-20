@@ -1,6 +1,6 @@
 // Write your function here
-function createGreeting(name){
+function name(Daniel){
 }
-var greeting = createGreeting("Daniel");
+var greeting = name("Daniel");
 
 console.log(greeting);
