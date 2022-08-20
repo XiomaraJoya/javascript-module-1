@@ -1,4 +1,6 @@
-const myName = " Daniel  "
-const lastName = "Gonzales"
+var name = "              Xiomara ";
+var nameN = name.trim();
+var message = "My name is " + nameN +  " and my name is " + name.length + " characters long"
 
-console.log("Hi"+","+"my name is"+myName+lastName);
+console.log(message);
+
