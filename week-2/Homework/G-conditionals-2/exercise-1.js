@@ -6,10 +6,14 @@
   - if number is more or equal to zero, return the word "positive"
 */
 
-function negativeOrPositive(number) {
-
+function negativeOrPositive(number1) {
+if (number1<0 ){
+  return "the word negative";
 }
-
+else if (number1>= 0) {
+  return "the word positive";
+}
+}
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */

@@ -17,7 +17,8 @@ You can also write this using `else if`:
 function getGrade(score) {
   if (score >= 80) {
     return "A";
-  } else if (score >= 60) {
+  } 
+  else if (score >= 60) {
     return "B";
   }
 }
