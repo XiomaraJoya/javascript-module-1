@@ -22,14 +22,27 @@ function isBetween5and10(numDos) {
   return false;
 }
 
-var name = Daniel;
+
+var name = "Daniel";
+var nameLength = name.length;
+
+console.log(nameLength);
+
 function isShortName(name) {
-  
-  if (name > 3 && name <=6) {
+  var nameLength = name.length
+  if (nameLength > 3 && nameLength <=6) {
     return true;
   }
 
   return false;
+}
+
+function startsWithD (firstName) {
+  if (firstName.startsWith ("D")) {
+    return "true"; 
+  } else {
+    return "false";
+  }
 }
 
  // DO NOT EDIT BELOW THIS LINE
