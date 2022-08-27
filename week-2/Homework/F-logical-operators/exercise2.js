@@ -4,12 +4,36 @@
   This program calls some functions that are either missing or incomplete.
   Update the code so that you get the expected result.
 */
+var num = -10;
 
-function isNegative() {}
+function isNegative(num) {
+  if (num < 0) {
+    return true;
+  }
+  return false;
+}
 
-/* 
-  DO NOT EDIT BELOW THIS LINE
-  --------------------------- */
+var numDos = 10;
+function isBetween5and10(numDos) {
+  if (numDos > 5 && numDos <=10) {
+    return true;
+  }
+
+  return false;
+}
+
+var name = Daniel;
+function isShortName(name) {
+  
+  if (name > 3 && name <=6) {
+    return true;
+  }
+
+  return false;
+}
+
+ // DO NOT EDIT BELOW THIS LINE
+  
 
 console.log("Is -10 is a negative number?", isNegative(-10));
 console.log("Is 5 a negative number?", isNegative(5));
