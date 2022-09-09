@@ -8,7 +8,15 @@
 
 var pairsByIndexRaw = [[0, 3], [1, 2], [2, 1], null, [1], false, "whoops"];
 
-var pairsByIndex; // Complete this statement
+// Complete this statement
+var pairsByIndex = pairsByIndexRaw.filter(fn); //Elementos pares de matriz 
+
+function fn(value) {
+  return value % 2 === 0;
+  
+}
+
+console.log(pairsByIndex);
 
 var students = ["Islam", "Lesley", "Harun", "Rukmini"];
 var mentors = ["Daniel", "Irina", "Mozafar", "Luke"];
