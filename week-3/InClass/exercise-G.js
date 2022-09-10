@@ -1,18 +1,31 @@
-function getAge (year) {
-    return new Date().getFullYear() - year
+function getAge(birthYear) {
+    return new Date().getFullYear() - birthYear;
+}
+console.log("Años de nacimiento que pueden tener: ");
+function getDrivingStatus(birthYear){
+    const age = getAge(birthYear);
+    if (age >= 18){
+        return birthYear;
+    } else {
+        const yearsToDrive = 18- age;
+        return ` Si ha nacido en ${birthYear}, puede tener dentro de ${yearsToDrive} año/s.`;
     }
-    
-    function getDrivingStatus(year2){
-    
-        const age= getAge(year2)
-        if ( age >= 17){
-            console.log(`Born in ${year2} can drive`) ;
-        }
-        else {
-            const yearsToDrive= 17-age
-            console.log(`Born in ${year2} can drive in ${yearsToDrive} years`) 
-        }
-    }
-    
-    const birthYears= [ 1964, 2008, 1999, 2005, 1978, 1985, 1919 ]
-    const canDrive= birthYears.map(getDrivingStatus)
+}
+
+function printYear(text) {
+    console.log(text);
+}
+
+const birthYears = [
+    1964, 
+    1999, 
+    1978, 
+    1985, 
+    1919,
+    2008,
+    2005
+];
+
+const drivingStatuses = birthYears.map(getDrivingStatus);
+
+drivingStatuses.forEach(printYear);
