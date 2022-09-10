@@ -8,7 +8,7 @@ function getDrivingStatus(birthYear){
         return birthYear;
     } else {
         const yearsToDrive = 18- age;
-        return ` Si ha nacido en ${birthYear}, puede tener dentro de ${yearsToDrive} año/s.`;
+        return ` Si ha nacido en ${birthYear}, puede conducir dentro de ${yearsToDrive} año/s.`;
     }
 }
 
